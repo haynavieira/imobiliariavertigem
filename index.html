@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#050505" />
+  <title>Dynasty 8 — Real Estate · San Andreas</title>
+  <meta name="description" content="Catálogo residencial da Dynasty 8 em San Andreas — VERTIGEM." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="dynasty-site">
+  <div class="noise"></div>
+
+  <header class="site-header dynasty-header">
+    <a class="brand dynasty-brand" href="#inicio" aria-label="Dynasty 8">
+      <span class="brand-title">DYNASTY 8</span>
+      <span class="brand-sub">REAL ESTATE · SAN ANDREAS</span>
+    </a>
+    <nav class="nav">
+      <a href="#colecoes">Residências</a>
+      <a href="#destaques">Seleção</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="#desenvolvimentos">Projetos</a>
+    </nav>
+    <div class="header-actions">
+      <span class="server-mark">VERTIGEM</span>
+      <a class="ghost-btn" href="catalogo.html?classe=b">Catálogo</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero home-hero dynasty-hero" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow">DYNASTY 8 · SAN ANDREAS</p>
+        <h1>Cada endereço<br><em>carrega uma parte da cidade.</em></h1>
+        <p class="hero-text">Explore residências de diferentes estilos e regiões. O catálogo mostra o que está disponível; o restante se descobre no servidor.</p>
+        <div class="hero-actions">
+          <a class="primary-btn" href="#colecoes">Explorar residências</a>
+          <a class="text-link" href="sobre.html">Sobre a imobiliária <span>↗</span></a>
+        </div>
+        <div class="hero-mini-note">
+          <span>CATÁLOGO RESIDENCIAL</span>
+          <p>Observe, salve e compare antes de levar sua seleção ao atendimento.</p>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="hero-line"></div>
+        <img src="assets/vertigem-logo.png" alt="" />
+        <div class="hero-caption">DYNASTY 8 · VERTIGEM</div>
+      </div>
+    </section>
+
+    <section class="metrics home-metrics" aria-label="Resumo da imobiliária">
+      <div><strong id="metricTotal">0</strong><span>residências publicadas</span></div>
+      <div><strong id="metricShowcase">0</strong><span>em seleção</span></div>
+      <div><strong id="metricNew">0</strong><span>novidades</span></div>
+    </section>
+
+    <section class="collections-section home-section" id="colecoes">
+      <div class="section-heading home-heading">
+        <div>
+          <p class="eyebrow">RESIDÊNCIAS</p>
+          <h2>Três seleções. Diferentes formas de morar.</h2>
+        </div>
+        <p>Escolha pela escala, proposta e atmosfera.</p>
+      </div>
+      <div class="collections-grid home-collection-grid">
+        <a class="collection-card collection-card-image" href="catalogo.html?classe=a" data-collection-card="a">
+          <span class="collection-index" data-collection-index="a">01</span>
+          <div class="collection-copy"><p class="eyebrow" data-collection-eyebrow="a">COLEÇÃO 01</p><h3 data-collection-name="a">Residências Exclusivas</h3><p data-collection-intro="a"></p></div>
+          <span class="collection-arrow interactive-arrow">Explorar <b>↗</b></span>
+        </a>
+        <a class="collection-card collection-card-image" href="catalogo.html?classe=b" data-collection-card="b">
+          <span class="collection-index" data-collection-index="b">02</span>
+          <div class="collection-copy"><p class="eyebrow" data-collection-eyebrow="b">COLEÇÃO 02</p><h3 data-collection-name="b">Residências Selecionadas</h3><p data-collection-intro="b"></p></div>
+          <span class="collection-arrow interactive-arrow">Explorar <b>↗</b></span>
+        </a>
+        <a class="collection-card collection-card-image" href="catalogo.html?classe=c" data-collection-card="c">
+          <span class="collection-index" data-collection-index="c">03</span>
+          <div class="collection-copy"><p class="eyebrow" data-collection-eyebrow="c">COLEÇÃO 03</p><h3 data-collection-name="c">Residências Essenciais</h3><p data-collection-intro="c"></p></div>
+          <span class="collection-arrow interactive-arrow">Explorar <b>↗</b></span>
+        </a>
+      </div>
+    </section>
+
+    <section class="featured-section home-section" id="destaques">
+      <div class="section-heading home-heading">
+        <div><p class="eyebrow">SELEÇÃO DYNASTY 8</p><h2>Alguns endereços pedem um olhar mais atento.</h2></div>
+        <p>Uma curadoria de endereços em evidência.</p>
+      </div>
+      <div class="home-featured-grid" id="homeFeaturedGrid"></div>
+    </section>
+
+    <section class="reconstruction-story compact-lore" id="casas-cidade">
+      <div class="reconstruction-copy">
+        <p class="eyebrow">CASAS &amp; CIDADE</p>
+        <h2>Nem toda residência começa quando chega ao catálogo.</h2>
+        <p>As casas de San Andreas atravessam estilos, épocas e regiões diferentes. A Dynasty 8 reúne o que está disponível hoje sem tratar cada endereço como algo recém-criado.</p>
+        <a class="text-link lore-link" href="sobre.html#casas-cidade">Ver a proposta <span>↗</span></a>
+      </div>
+      <div class="reconstruction-visual" aria-hidden="true">
+        <span class="reconstruction-number">D8</span>
+        <span class="reconstruction-caption">CASAS · CIDADE · TEMPO</span>
+      </div>
+    </section>
+
+    <section class="process dynasty-process" id="como-funciona">
+      <div class="section-heading process-title"><div><p class="eyebrow">COMO FUNCIONA</p><h2>Escolha sem complicar.</h2></div></div>
+      <div class="process-grid">
+        <article><span>01</span><h3>Explore</h3><p>Abra as coleções e compare as propriedades.</p></article>
+        <article><span>02</span><h3>Salve</h3><p>Monte sua seleção pessoal no próprio navegador.</p></article>
+        <article><span>03</span><h3>Atendimento</h3><p>Copie a seleção e leve as referências ao ticket.</p></article>
+        <article><span>04</span><h3>Em RP</h3><p>Acessos, interiores e contexto do lugar são conhecidos no servidor.</p></article>
+      </div>
+    </section>
+
+    <section class="development-section restrained-development" id="desenvolvimentos">
+      <div class="development-visual" aria-hidden="true"><span>EM DESENVOLVIMENTO</span><strong>Próximos endereços</strong></div>
+      <div class="development-copy">
+        <p class="eyebrow">EM ETAPAS</p>
+        <h2>Novos endereços entram no catálogo aos poucos.</h2>
+        <p>Algumas propriedades e projetos ainda estão sendo preparados ou incorporados ao mercado. Quando estiverem prontos, aparecem aqui.</p>
+        <div class="development-metrics">
+          <div><strong id="developmentInlineCount">0</strong><span>em desenvolvimento</span></div>
+          <div><strong id="showcaseInlineCount">0</strong><span>em seleção</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-teaser home-section">
+      <div class="about-teaser-mark"><img src="assets/vertigem-logo.png" alt="" /><span>VERTIGEM</span></div>
+      <div class="about-teaser-copy">
+        <p class="eyebrow">DYNASTY 8</p>
+        <h2>Uma imobiliária dentro de San Andreas.</h2>
+        <p>Sobre o catálogo, os imóveis e a experiência em RP.</p>
+        <a class="primary-btn" href="sobre.html">Sobre ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer-rich dynasty-footer">
+    <div><span class="brand-title small">DYNASTY 8</span><p>Real Estate · San Andreas</p></div>
+    <div class="footer-links"><a href="#colecoes">Residências</a><a href="sobre.html">Sobre</a><a href="#desenvolvimentos">Projetos</a></div>
+    <div class="social-icon-row" aria-label="Redes do VERTIGEM">
+      <a class="social-icon-link" href="#" data-social-link="discord" target="_blank" rel="noopener noreferrer" aria-label="Discord" title="Discord"><img src="assets/icons/discord.png" alt="" width="64" height="64" onload="this.nextElementSibling.hidden=true" onerror="this.hidden=true"><span aria-hidden="true">◈</span></a>
+      <a class="social-icon-link" href="#" data-social-link="instagram" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram"><img src="assets/icons/instagram.png" alt="" width="64" height="64" onload="this.nextElementSibling.hidden=true" onerror="this.hidden=true"><span aria-hidden="true">◎</span></a>
+    </div>
+    <span class="footer-vertigem">VERTIGEM</span>
+  </footer>
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

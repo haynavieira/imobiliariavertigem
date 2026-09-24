@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#050505" />
+  <title>Sobre a Dynasty 8 — San Andreas</title>
+  <meta name="description" content="Sobre a Dynasty 8, o catálogo e a experiência imobiliária em San Andreas." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="dynasty-site about-page">
+  <div class="noise"></div>
+  <header class="site-header dynasty-header">
+    <a class="brand dynasty-brand" href="index.html" aria-label="Dynasty 8"><span class="brand-title">DYNASTY 8</span><span class="brand-sub">REAL ESTATE · SAN ANDREAS</span></a>
+    <nav class="nav"><a href="index.html#colecoes">Residências</a><a href="index.html#destaques">Seleção</a><a href="sobre.html" aria-current="page">Sobre</a><a href="index.html#desenvolvimentos">Projetos</a></nav>
+    <div class="header-actions"><span class="server-mark">VERTIGEM</span><a class="ghost-btn" href="catalogo.html?classe=b">Catálogo</a></div>
+  </header>
+
+  <main>
+    <section class="about-hero">
+      <div>
+        <p class="eyebrow">SOBRE A DYNASTY 8</p>
+        <h1>Uma vitrine imobiliária de San Andreas.</h1>
+        <p>O site organiza residências, disponibilidade e seleção sem substituir o que precisa ser vivido dentro do servidor.</p>
+      </div>
+      <div class="about-hero-mark" aria-hidden="true"><img src="assets/vertigem-logo.png" alt="" /><span>VERTIGEM</span></div>
+    </section>
+
+    <section class="about-tabs-section">
+      <div class="about-tabs" role="tablist" aria-label="Sobre a imobiliária">
+        <button class="about-tab active" type="button" role="tab" aria-selected="true" data-about-tab="imobiliaria">A imobiliária</button>
+        <button class="about-tab" type="button" role="tab" aria-selected="false" data-about-tab="casas-cidade">Casas &amp; cidade</button>
+        <button class="about-tab" type="button" role="tab" aria-selected="false" data-about-tab="experiencia-rp">Experiência em RP</button>
+        <button class="about-tab" type="button" role="tab" aria-selected="false" data-about-tab="vertigem">VERTIGEM</button>
+      </div>
+
+      <div class="about-panels">
+        <article class="about-panel active" role="tabpanel" data-about-panel="imobiliaria">
+          <p class="eyebrow">DYNASTY 8</p>
+          <h2>Escolher começa pelo catálogo.</h2>
+          <p>A Dynasty 8 reúne residências disponíveis em Los Santos e outras regiões de San Andreas. A proposta é simples: observar, comparar, salvar e levar uma seleção ao atendimento quando necessário.</p>
+        </article>
+
+        <article class="about-panel" role="tabpanel" data-about-panel="casas-cidade" id="casas-cidade">
+          <p class="eyebrow">CASAS &amp; CIDADE</p>
+          <h2>Os endereços não pertencem ao mesmo momento.</h2>
+          <p>San Andreas reúne arquiteturas, bairros e paisagens de épocas diferentes. O catálogo preserva essa variedade: casas clássicas, contemporâneas, urbanas, afastadas e rurais continuam fazendo parte da mesma cidade.</p>
+        </article>
+
+        <article class="about-panel" role="tabpanel" data-about-panel="experiencia-rp" id="experiencia-rp">
+          <p class="eyebrow">CATÁLOGO &amp; ROLEPLAY</p>
+          <h2>Ver não é conhecer.</h2>
+          <p>Fotos e descrições ajudam na escolha. Acesso, interior, caminho e contexto do imóvel são conhecimentos construídos em RP.</p>
+          <div class="about-rules-grid">
+            <div><span>01</span><strong>Escolha</strong><p>Use o site para comparar propriedades.</p></div>
+            <div><span>02</span><strong>Atendimento</strong><p>Leve a referência ao ticket quando precisar.</p></div>
+            <div><span>03</span><strong>Em jogo</strong><p>Conheça o espaço dentro do servidor.</p></div>
+          </div>
+        </article>
+
+        <article class="about-panel" role="tabpanel" data-about-panel="vertigem">
+          <p class="eyebrow">VERTIGEM</p>
+          <h2>A assinatura do sistema.</h2>
+          <p>VERTIGEM identifica o servidor. A Dynasty 8 mantém a voz imobiliária do site; a ambientação completa permanece nos canais oficiais.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer-rich dynasty-footer">
+    <div><span class="brand-title small">DYNASTY 8</span><p>Real Estate · San Andreas</p></div>
+    <div class="footer-links"><a href="index.html">Home</a><a href="catalogo.html?classe=b">Catálogo</a></div>
+    <div class="social-icon-row" aria-label="Redes do VERTIGEM">
+      <a class="social-icon-link" href="#" data-social-link="discord" target="_blank" rel="noopener noreferrer" aria-label="Discord" title="Discord"><img src="assets/icons/discord.png" alt="" width="64" height="64" onload="this.nextElementSibling.hidden=true" onerror="this.hidden=true"><span aria-hidden="true">◈</span></a>
+      <a class="social-icon-link" href="#" data-social-link="instagram" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram"><img src="assets/icons/instagram.png" alt="" width="64" height="64" onload="this.nextElementSibling.hidden=true" onerror="this.hidden=true"><span aria-hidden="true">◎</span></a>
+    </div>
+    <span class="footer-vertigem">VERTIGEM</span>
+  </footer>
+  <script src="config.js"></script>
+  <script src="sobre.js"></script>
+</body>
+</html>

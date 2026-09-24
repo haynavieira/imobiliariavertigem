@@ -1,0 +1,467 @@
+[
+  {
+    "id": "a1",
+    "class": "a",
+    "name": "Casa Observatio",
+    "location": "North Richman",
+    "locationDetail": "No oeste de Los Santos",
+    "description": "Casa de arquitetura contemporânea, com volumetria marcante, linhas retas e uma proposta mais reservada. Os ambientes internos seguem uma estética escura e minimalista, com integração entre sala de jantar, cozinha e áreas de convivência. Na parte externa, a área da piscina e o deck se destacam junto da vista mais aberta, enquanto os quartos e demais espaços mantêm uma composição moderna e sóbria.",
+    "cover": "assets/casas/a1/a1a.jpeg",
+    "gallery": [
+      "assets/casas/a1/a1a.jpeg",
+      "assets/casas/a1/a1b.jpeg",
+      "assets/casas/a1/a1c.jpeg",
+      "assets/casas/a1/a1d.jpeg"
+    ]
+  },
+  {
+    "id": "a2",
+    "class": "a",
+    "name": "The Manor",
+    "location": "Richman",
+    "locationDetail": "Próxima ao Los Santos Golf Club",
+    "description": "Mansão de arquitetura clássica, com fachada em pedra, grandes jardins e áreas externas distribuídas entre pátios, escadarias e espaços de convivência. O interior mantém uma proposta mais tradicional, marcada por madeira, tecidos estampados e ambientes amplos. A propriedade tem uma presença bastante diferente das casas contemporâneas do catálogo, com composição mais histórica e imponente.",
+    "cover": "assets/casas/a2/a2a.png",
+    "gallery": [
+      "assets/casas/a2/a2a.png",
+      "assets/casas/a2/a2b.png",
+      "assets/casas/a2/a2c.png",
+      "assets/casas/a2/a2d.png"
+    ]
+  },
+  {
+    "id": "a3",
+    "class": "a",
+    "name": "Mansão Hills",
+    "location": "Vinewood Hills",
+    "locationDetail": "Região de encosta de Vinewood Hills.",
+    "description": "Mansão de estilo mediterrâneo, detalhes em pedra e uma área externa ampla voltada para lazer e convivência. A propriedade reúne piscina, jardim gramado e uma construção auxiliar, enquanto os ambientes internos seguem uma proposta clássica, com madeira escura, lareira, lustres e salas bem distribuídas.",
+    "cover": "assets/casas/a3/a3a.png",
+    "gallery": [
+      "assets/casas/a3/a3a.png",
+      "assets/casas/a3/a3b.png",
+      "assets/casas/a3/a3c.png",
+      "assets/casas/a3/a3d.png"
+    ]
+  },
+  {
+    "id": "a4",
+    "class": "a",
+    "name": "Mansão Witanhurst",
+    "location": "Vinewood Hills",
+    "locationDetail": "Região de encosta de Vinewood Hills.",
+    "description": "Mansão contemporânea em um terreno amplo, com grandes áreas envidraçadas e integração entre os ambientes internos e externos. A área de lazer reúne piscina, deck e jardins distribuídos pela propriedade, enquanto o interior segue uma estética clara e moderna, com madeira, tons neutros e espaços amplos de convivência.",
+    "cover": "assets/casas/a4/a4a.png",
+    "gallery": [
+      "assets/casas/a4/a4a.png",
+      "assets/casas/a4/a4b.png",
+      "assets/casas/a4/a4c.png",
+      "assets/casas/a4/a4d.png"
+    ]
+  },
+  {
+    "id": "a5",
+    "class": "a",
+    "name": "Mansão Hearst",
+    "location": "Vinewood Hills",
+    "locationDetail": "Região de encosta de Vinewood Hills.",
+    "description": "Mansão contemporânea construída em diferentes andares, com grandes áreas envidraçadas e espaços voltados para a área externa. A propriedade reúne piscina, deck amplo e diferentes áreas de convivência, enquanto o interior combina madeira, tons claros e elementos modernos em ambientes espaçosos e bem integrados.",
+    "cover": "assets/casas/a5/a5a.png",
+    "gallery": [
+      "assets/casas/a5/a5a.png",
+      "assets/casas/a5/a5b.png",
+      "assets/casas/a5/a5c.png",
+      "assets/casas/a5/a5d.png"
+    ]
+  },
+  {
+    "id": "a6",
+    "class": "a",
+    "name": "Mansão Leopolda",
+    "location": "Richman",
+    "locationDetail": "Região residencial de Richman",
+    "description": "Mansão de arquitetura clássica, com fachada simétrica, jardins bem definidos e ambientes internos de estética tradicional. Madeira escura, tapeçarias e mobiliário mais sóbrio marcam o interior, enquanto a área externa reúne vegetação abundante, espaços de convivência e piscina em uma composição mais reservada.",
+    "cover": "assets/casas/a6/a6a.png",
+    "gallery": [
+      "assets/casas/a6/a6a.png",
+      "assets/casas/a6/a6b.png",
+      "assets/casas/a6/a6c.png",
+      "assets/casas/a6/a6d.png"
+    ]
+  },
+  {
+    "id": "a7",
+    "class": "a",
+    "name": "Mansão Delacourt",
+    "location": "Richman",
+    "locationDetail": "Região residencial de Richman",
+    "description": "Residência que se destaca pelo acesso fechado, paisagismo bem desenhado e uma fachada imponente em tons quentes, com forte inspiração mediterrânea. No interior, os ambientes revelam um estilo tradicional refinado, com madeira nobre, tetos trabalhados, biblioteca, salas de convivência amplas e espaços pensados para receber com conforto e sofisticação.  ",
+    "cover": "assets/casas/a7/a7a.png",
+    "gallery": [
+      "assets/casas/a7/a7a.png",
+      "assets/casas/a7/a7b.png",
+      "assets/casas/a7/a7c.png",
+      "assets/casas/a7/a7d.png"
+    ]
+  },
+  {
+    "id": "a8",
+    "class": "a",
+    "name": "Mansão Wondesburg",
+    "location": "Richman",
+    "locationDetail": "Região residencial de Richman",
+    "description": "Mansão de estilo clássico, com fachada marcante em tons claros e ambientes internos que combinam mobiliário branco, detalhes em verde e acabamentos tradicionais. A decoração transmite uma atmosfera refinada e residencial, com espaços amplos para convivência e recepção. Entre os diferenciais da propriedade, destaca-se a área dedicada ao xadrez, o lago e a piscina que acrescenta personalidade ao conjunto e reforça o caráter mais sofisticado e contemplativo da residência.  ",
+    "cover": "assets/casas/a8/a8a.png",
+    "gallery": [
+      "assets/casas/a8/a8a.png",
+      "assets/casas/a8/a8b.png",
+      "assets/casas/a8/a8c.png",
+      "assets/casas/a8/a8d.png"
+    ]
+  },
+  {
+    "id": "a9",
+    "class": "a",
+    "name": "Villa Sierra",
+    "location": "Vinewood Hills",
+    "locationDetail": "Região residencial",
+    "description": "Mansão contemporânea de linhas horizontais, integrada ao terreno e às áreas externas. A propriedade reúne piscina, grandes decks e ambientes internos amplos, com madeira, tons neutros e extensas aberturas de vidro. Sala, escritório e quarto seguem a mesma linguagem moderna, com bastante iluminação natural e conexão visual com a área de lazer.",
+    "cover": "assets/casas/a9/a9a.png",
+    "gallery": [
+      "assets/casas/a9/a9a.png",
+      "assets/casas/a9/a9b.png",
+      "assets/casas/a9/a9c.png",
+      "assets/casas/a9/a9d.png"
+    ]
+  },
+  {
+    "id": "a10",
+    "class": "a",
+    "name": "Montclair Estate",
+    "location": "Vinewood Hills",
+    "locationDetail": "Ace Jones Drive",
+    "description": "Residência de inspiração clássica cercada por jardins amplos e áreas externas bem distribuídas. A casa combina madeira escura, tapetes e mobiliário tradicional nos interiores, enquanto o terreno reúne entrada circular ajardinada, piscina e uma área independente voltada para lazer. O conjunto mantém uma atmosfera mais reservada e tradicional, com bastante presença de vegetação.",
+    "cover": "assets/casas/a10/a10a.png",
+    "gallery": [
+      "assets/casas/a10/a10a.png",
+      "assets/casas/a10/a10b.png",
+      "assets/casas/a10/a10c.png",
+      "assets/casas/a10/a10d.png"
+    ]
+  },
+  {
+    "id": "a11",
+    "class": "a",
+    "name": "Mansão Linden",
+    "location": "Vinewood Hills",
+    "locationDetail": "Região residencial",
+    "description": "Mansão contemporânea de linhas amplas, integrada a uma área externa com piscina, deck e jardim. Os interiores seguem uma estética moderna em tons neutros, com madeira, grandes ambientes sociais e espaços de convivência distribuídos em diferentes níveis. A proposta da casa é mais sóbria e funcional, mantendo forte conexão entre interior e área de lazer.",
+    "cover": "assets/casas/a11/a11a.png",
+    "gallery": [
+      "assets/casas/a11/a11a.png",
+      "assets/casas/a11/a11b.png",
+      "assets/casas/a11/a11c.png",
+      "assets/casas/a11/a11d.png"
+    ]
+  },
+  {
+    "id": "a12",
+    "class": "a",
+    "name": "Mansão Belvedere",
+    "location": "Vinewood Hills",
+    "locationDetail": "Região residencial",
+    "description": "Casa contemporânea implantada em terreno elevado, com áreas externas amplas e integração entre os espaços de convivência. A propriedade reúne piscina, gramado e um grande deck, enquanto o interior combina madeira, tons neutros e ambientes espaçosos, com uma linguagem moderna e mais discreta.",
+    "cover": "assets/casas/a12/a12a.png",
+    "gallery": [
+      "assets/casas/a12/a12a.png",
+      "assets/casas/a12/a12b.png",
+      "assets/casas/a12/a12c.png",
+      "assets/casas/a12/a12d.png"
+    ]
+  },
+  {
+    "id": "b1",
+    "class": "b",
+    "name": "Marble House",
+    "location": "Vinewood Hills",
+    "locationDetail": "Região residencial",
+    "description": "Casa contemporânea com ambientes amplos, integração com a área externa, piscina, deck e uma estética moderna e equilibrada.",
+    "cover": "assets/casas/b1/b1a.png",
+    "gallery": [
+      "assets/casas/b1/b1a.png",
+      "assets/casas/b1/b1b.png",
+      "assets/casas/b1/b1c.png",
+      "assets/casas/b1/b1d.png"
+    ]
+  },
+  {
+    "id": "b2",
+    "class": "b",
+    "name": "Villa Clairmont",
+    "location": "Richman",
+    "locationDetail": "Região residencial",
+    "description": "Residência contemporânea de grande porte, com arquitetura marcada por linhas horizontais, fachada clara e detalhes em madeira. Os interiores seguem uma proposta moderna e confortável, com amplas salas de convivência, cozinha integrada e espaços voltados ao entretenimento. Na área externa, a propriedade se destaca pelo extenso pátio, piscina, áreas de descanso e pergolado, cercados por jardins e paisagismo cuidadosamente distribuídos. O conjunto oferece uma atmosfera reservada e sofisticada, com forte integração entre os ambientes internos e as áreas de lazer.",
+    "cover": "assets/casas/b2/b2a.png",
+    "gallery": [
+      "assets/casas/b2/b2a.png",
+      "assets/casas/b2/b2b.png",
+      "assets/casas/b2/b2c.png",
+      "assets/casas/b2/b2d.png"
+    ]
+  },
+  {
+    "id": "b3",
+    "class": "b",
+    "name": "Villa Auremont",
+    "location": "Rockford Hills",
+    "locationDetail": "Região próxima ao Los Santos Golf Club, na transição entre Rockford Hills e Richman",
+    "description": "Residência contemporânea de grande porte, organizada ao redor de uma ampla área de lazer com piscina e espaços externos integrados. A arquitetura combina concreto claro, vidro e madeira, criando um conjunto moderno com forte caráter residencial. Os interiores oferecem ambientes amplos para convivência, incluindo bar, salas de estar e espaços voltados ao entretenimento, além de dormitórios com acesso visual para as áreas externas. Varandas, terraços e jardins completam a propriedade, reforçando a proposta de conforto, privacidade e lazer em uma das regiões mais valorizadas da cidade.",
+    "cover": "assets/casas/b3/b3a.png",
+    "gallery": [
+      "assets/casas/b3/b3a.png",
+      "assets/casas/b3/b3b.png",
+      "assets/casas/b3/b3c.png",
+      "assets/casas/b3/b3d.png"
+    ]
+  },
+  {
+    "id": "b4",
+    "class": "b",
+    "name": "Villa Sylva",
+    "location": "Vinewood Hills",
+    "locationDetail": "Região residencial próxima ao lago, em trecho elevado e cercado por vegetação",
+    "description": "Residência contemporânea implantada em meio à vegetação, com arquitetura marcada por linhas retas, fachada em concreto e grandes aberturas voltadas para a área externa. A propriedade conta com piscina privativa, terraço amplo e ambientes internos espaçosos, com destaque para a sala de estar, a área de jantar integrada e a suíte com vista para a cidade. O conjunto transmite uma proposta moderna, reservada e sofisticada, equilibrando privacidade e conexão com a paisagem ao redor.",
+    "cover": "assets/casas/b4/b4a.png",
+    "gallery": [
+      "assets/casas/b4/b4a.png",
+      "assets/casas/b4/b4b.png",
+      "assets/casas/b4/b4c.png",
+      "assets/casas/b4/b4d.png"
+    ]
+  },
+  {
+    "id": "b5",
+    "class": "b",
+    "name": "Villa Bellacorte",
+    "location": "Richman",
+    "locationDetail": "Região residencial",
+    "description": "Residência de inspiração mediterrânea cercada por jardins amplos e paisagismo cuidadosamente organizado. A arquitetura combina fachada clássica, telhados em terracota e proporções elegantes com interiores atualizados e mais contemporâneos. A área social integra sala de jantar, cozinha e espaços de convivência, enquanto os quartos seguem uma proposta mais reservada e confortável. Nos fundos, a propriedade conta com uma grande piscina, terraços e extensas áreas verdes, criando um conjunto voltado tanto ao lazer quanto à privacidade.",
+    "cover": "assets/casas/b5/b5a.png",
+    "gallery": [
+      "assets/casas/b5/b5a.png",
+      "assets/casas/b5/b5b.png",
+      "assets/casas/b5/b5c.png",
+      "assets/casas/b5/b5d.png"
+    ]
+  },
+  {
+    "id": "b6",
+    "class": "b",
+    "name": "Villa Vellano",
+    "location": "Tongva Hills",
+    "locationDetail": "Região Montanhosa",
+    "description": "Residência contemporânea de alto padrão, implantada em uma encosta cercada por vegetação e próxima à região dos vinhedos. A arquitetura se destaca pelas linhas retas, grandes panos de vidro e detalhes marcantes em vermelho, criando uma identidade visual moderna. A área externa reúne piscina elevada com deck panorâmico e espaços voltados para lazer e contemplação. No interior, os ambientes são amplos e integrados, com acabamentos em madeira, grandes aberturas para a paisagem e uma suíte espaçosa com atmosfera reservada.",
+    "cover": "assets/casas/b6/b6a.png",
+    "gallery": [
+      "assets/casas/b6/b6a.png",
+      "assets/casas/b6/b6b.png",
+      "assets/casas/b6/b6c.png",
+      "assets/casas/b6/b6d.png"
+    ]
+  },
+  {
+    "id": "b7",
+    "class": "b",
+    "name": "Villa Monteluce",
+    "location": "Richman",
+    "locationDetail": "Região residencial",
+    "description": "Residência de inspiração mediterrânea, marcada por arcos, detalhes ornamentais e acabamentos em tons quentes. Os interiores preservam uma estética clássica, com madeira, grandes cortinas, lustres e espaços amplos para convivência e refeições. Na área externa, a propriedade reúne piscina, spa, jardins bem cuidados e uma pequena área de putting green, criando um ambiente mais reservado e voltado ao lazer. A fachada de dois pavimentos, a garagem integrada e os terraços completam o caráter tradicional e sofisticado do imóvel.",
+    "cover": "assets/casas/b7/b7a.png",
+    "gallery": [
+      "assets/casas/b7/b7a.png",
+      "assets/casas/b7/b7b.png",
+      "assets/casas/b7/b7c.png",
+      "assets/casas/b7/b7d.png"
+    ]
+  },
+  {
+    "id": "b8",
+    "class": "b",
+    "name": "Villa Solenne",
+    "location": "Vinewood Hills",
+    "locationDetail": "Residência em encosta, cercada por vegetação e com área externa elevada",
+    "description": "Residência contemporânea integrada à paisagem, com fachada ampla em vidro, piscina externa e ambientes internos espaçosos. O projeto combina madeira, pedra e iluminação indireta, criando uma atmosfera moderna e acolhedora. A área social reúne sala de estar, cozinha e jantar em conceito aberto, enquanto os demais ambientes mantêm o mesmo padrão de acabamento, incluindo um escritório com acesso visual para a área externa. A propriedade se destaca pela integração entre interior e exterior e pela implantação em meio à vegetação.",
+    "cover": "assets/casas/b8/b8a.png",
+    "gallery": [
+      "assets/casas/b8/b8a.png",
+      "assets/casas/b8/b8b.png",
+      "assets/casas/b8/b8c.png",
+      "assets/casas/b8/b8d.png"
+    ]
+  },
+  {
+    "id": "b9",
+    "class": "b",
+    "name": "Rosemont Chateau",
+    "location": "Richman",
+    "locationDetail": "Residência próxima ao Los Santos Golf Club",
+    "description": "Mansão clássica de inspiração europeia, cercada por jardins bem cuidados e áreas de lazer completas. A propriedade conta com piscina, quadra de tênis, estufa e interiores sofisticados, incluindo sala de jantar formal e uma biblioteca imponente, criando uma atmosfera elegante e tradicional.",
+    "cover": "assets/casas/b9/b9a.png",
+    "gallery": [
+      "assets/casas/b9/b9a.png",
+      "assets/casas/b9/b9b.png",
+      "assets/casas/b9/b9c.png",
+      "assets/casas/b9/b9d.png"
+    ]
+  },
+  {
+    "id": "b10",
+    "class": "b",
+    "name": "Green Creek Farmhouse",
+    "location": "Grand Senora Desert",
+    "locationDetail": "Região rural ao sul de Sandy Shores",
+    "description": "Casa de estilo rural, com construção em madeira, varanda externa e ambientes internos de estética rústica. A área social reúne cozinha e espaço para refeições em uma composição simples e acolhedora, enquanto o quarto mantém o mesmo acabamento tradicional. A propriedade também conta com uma estrutura separada de apoio, reforçando o caráter mais campestre e funcional do imóvel.",
+    "cover": "assets/casas/b10/b10a.png",
+    "gallery": [
+      "assets/casas/b10/b10a.png",
+      "assets/casas/b10/b10b.png",
+      "assets/casas/b10/b10c.png",
+      "assets/casas/b10/b10d.png"
+    ]
+  },
+  {
+    "id": "c1",
+    "class": "c",
+    "name": "Mirror Lake Residence",
+    "location": "Mirror Park",
+    "locationDetail": "Área residencial próxima à margem do lago de Mirror Park",
+    "description": "Residência contemporânea de interiores escuros e atmosfera acolhedora, com ambientes integrados, ampla área social e acabamentos em madeira. A proximidade com o lago e as ruas arborizadas de Mirror Park reforça o caráter residencial e tranquilo da propriedade.",
+    "cover": "assets/casas/c1/c1a.png",
+    "gallery": [
+      "assets/casas/c1/c1a.png",
+      "assets/casas/c1/c1b.png",
+      "assets/casas/c1/c1c.png",
+      "assets/casas/c1/c1d.png"
+    ]
+  },
+  {
+    "id": "c2",
+    "class": "c",
+    "name": "Eastwood House",
+    "location": "Mirror Park",
+    "locationDetail": "Região residencial próxima ao lago, em Mirror Park",
+    "description": "Casa de estilo contemporâneo com projeto interno sofisticado e ambientes pensados para convivência. Tons sóbrios, iluminação indireta e elementos em madeira criam uma residência confortável e discreta em uma das áreas mais tranquilas de Mirror Park.",
+    "cover": "assets/casas/c2/c2a.png",
+    "gallery": [
+      "assets/casas/c2/c2a.png",
+      "assets/casas/c2/c2b.png",
+      "assets/casas/c2/c2c.png",
+      "assets/casas/c2/c2d.png"
+    ]
+  },
+  {
+    "id": "c3",
+    "class": "c",
+    "name": "Mirror Grove",
+    "location": "Mirror Park",
+    "locationDetail": "Ruas residenciais arborizadas nos arredores do lago de Mirror Park",
+    "description": "Residência moderna inserida na área arborizada de Mirror Park, combinando espaços amplos, decoração sóbria e forte integração entre as áreas sociais. O imóvel mantém uma atmosfera reservada sem perder a proximidade com o centro do bairro.",
+    "cover": "assets/casas/c3/c3b.png",
+    "gallery": [
+      "assets/casas/c3/c3a.png",
+      "assets/casas/c3/c3b.png",
+      "assets/casas/c3/c3c.png",
+      "assets/casas/c3/c3d.png"
+    ]
+  },
+  {
+    "id": "c4",
+    "class": "c",
+    "name": "Lakehurst Residence",
+    "location": "Mirror Park",
+    "locationDetail": "Setor residencial junto ao lago de Mirror Park",
+    "description": "Residência de estética contemporânea e personalidade mais reservada, marcada por interiores escuros, iluminação quente e áreas dedicadas ao lazer. Uma propriedade confortável e bem estruturada em meio ao cenário residencial de Mirror Park.",
+    "cover": "assets/casas/c4/c4b.png",
+    "gallery": [
+      "assets/casas/c4/c4a.png",
+      "assets/casas/c4/c4b.png",
+      "assets/casas/c4/c4c.png",
+      "assets/casas/c4/c4d.png"
+    ]
+  },
+  {
+    "id": "c5",
+    "class": "c",
+    "name": "Hillside Courtyard",
+    "location": "Vinewood Hills",
+    "locationDetail": "Região residencial",
+    "description": "Casa moderna com arquitetura ampla e integrada, destacando uma elegante área externa com piscina central e espaços ideais para convivência. O interior combina madeira, tons neutros e ambientes espaçosos, criando uma atmosfera sofisticada, confortável e acolhedora.",
+    "cover": "assets/casas/c5/c5a.png",
+    "gallery": [
+      "assets/casas/c5/c5a.png",
+      "assets/casas/c5/c5b.png",
+      "assets/casas/c5/c5c.png",
+      "assets/casas/c5/c5d.png"
+    ]
+  },
+  {
+    "id": "c6",
+    "class": "c",
+    "name": "Palm Grove",
+    "location": "Vinewood Hills",
+    "locationDetail": "Região residencial",
+    "description": "Residência contemporânea ampla e elegante, com piscina, área externa cercada por palmeiras e ambientes internos espaçosos. O projeto combina madeira, tons claros e acabamento moderno, criando uma casa confortável e sofisticada, ideal para lazer e convivência.",
+    "cover": "assets/casas/c6/c6a.png",
+    "gallery": [
+      "assets/casas/c6/c6a.png",
+      "assets/casas/c6/c6b.png",
+      "assets/casas/c6/c6c.png",
+      "assets/casas/c6/c6d.png"
+    ]
+  },
+  {
+    "id": "c7",
+    "class": "c",
+    "name": "Sunset Crest",
+    "location": "Vinewood Hills",
+    "locationDetail": "Região residencial",
+    "description": "Residência espaçosa em uma área elevada, com ampla área externa, piscina e vista privilegiada para as colinas. Os ambientes internos combinam madeira, tons neutros e espaços generosos, criando uma casa elegante, confortável e ideal para aproveitar o pôr do sol.",
+    "cover": "assets/casas/c7/c7a.png",
+    "gallery": [
+      "assets/casas/c7/c7a.png",
+      "assets/casas/c7/c7b.png",
+      "assets/casas/c7/c7c.png",
+      "assets/casas/c7/c7d.png"
+    ]
+  },
+  {
+    "id": "c8",
+    "class": "c",
+    "name": "Oakview Residence",
+    "location": "Vinewood Hills",
+    "locationDetail": "Região residencial",
+    "description": "Casa ampla e reservada em meio às colinas, com piscina elevada, jardim e espaços internos confortáveis. A decoração combina madeira, tons escuros e ambientes generosos, trazendo uma proposta elegante e acolhedora para morar e receber.",
+    "cover": "assets/casas/c8/c8a.png",
+    "gallery": [
+      "assets/casas/c8/c8a.png",
+      "assets/casas/c8/c8b.png",
+      "assets/casas/c8/c8c.png",
+      "assets/casas/c8/c8d.png"
+    ]
+  },
+  {
+    "id": "c9",
+    "class": "c",
+    "name": "Sierra Glass House",
+    "location": "Tongva Hills",
+    "locationDetail": "Região Montanhosa",
+    "description": "Residência contemporânea cercada pela natureza, com arquitetura térrea, grandes painéis de vidro e piscina integrada ao jardim. Os interiores combinam madeira, tons neutros e linhas modernas, criando uma atmosfera elegante, tranquila e reservada.",
+    "cover": "assets/casas/c9/c9a.png",
+    "gallery": [
+      "assets/casas/c9/c9a.png",
+      "assets/casas/c9/c9b.png",
+      "assets/casas/c9/c9c.png",
+      "assets/casas/c9/c9d.png"
+    ]
+  }
+]

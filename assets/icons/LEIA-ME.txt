@@ -1,0 +1,12 @@
+ÍCONES SOCIAIS — 64×64 PNG
+
+Adicione aqui:
+- discord.png
+- instagram.png
+
+Recomendação:
+- 64 × 64 px
+- PNG com fundo transparente
+- símbolo centralizado
+
+O site tem um fallback gráfico simples caso os PNGs ainda não estejam na pasta.

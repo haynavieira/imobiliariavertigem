@@ -1,0 +1,250 @@
+{
+  "a1": {
+    "published": true,
+    "status": "Disponível",
+    "price": 100,
+    "showcase": false,
+    "new": true,
+    "development": false
+  },
+  "a2": {
+    "published": true,
+    "status": "Disponível",
+    "price": 100,
+    "showcase": true,
+    "new": false,
+    "development": false
+  },
+  "a3": {
+    "published": true,
+    "status": "Disponível",
+    "price": 100,
+    "showcase": true,
+    "new": false,
+    "development": false
+  },
+  "a4": {
+    "published": true,
+    "status": "Disponível",
+    "price": 100,
+    "showcase": false,
+    "new": false,
+    "development": false
+  },
+  "a5": {
+    "published": true,
+    "status": "Disponível",
+    "price": 100,
+    "showcase": false,
+    "new": false,
+    "development": false
+  },
+  "a6": {
+    "published": true,
+    "status": "Disponível",
+    "price": 100,
+    "showcase": false,
+    "new": false,
+    "development": false
+  },
+  "a7": {
+    "published": true,
+    "status": "Indisponível",
+    "price": 100,
+    "showcase": false,
+    "new": false,
+    "development": false
+  },
+  "a8": {
+    "published": true,
+    "status": "Disponível",
+    "price": 100,
+    "showcase": false,
+    "new": false,
+    "development": false
+  },
+  "a9": {
+    "published": true,
+    "status": "Disponível",
+    "price": 100,
+    "showcase": false,
+    "new": false,
+    "development": false
+  },
+  "a10": {
+    "published": true,
+    "status": "Disponível",
+    "price": 100,
+    "showcase": false,
+    "new": false,
+    "development": false
+  },
+  "a11": {
+    "published": true,
+    "status": "Disponível",
+    "price": 100,
+    "showcase": false,
+    "new": false,
+    "development": false
+  },
+  "a12": {
+    "published": true,
+    "status": "Disponível",
+    "price": 100,
+    "showcase": false,
+    "new": false,
+    "development": false
+  },
+  "b1": {
+    "published": true,
+    "status": "Disponível",
+    "price": 100,
+    "showcase": true,
+    "new": false,
+    "development": false
+  },
+  "b2": {
+    "published": true,
+    "status": "Disponível",
+    "price": 100,
+    "showcase": false,
+    "new": false,
+    "development": false
+  },
+  "b3": {
+    "published": true,
+    "status": "Disponível",
+    "price": 100,
+    "showcase": false,
+    "new": false,
+    "development": false
+  },
+  "b4": {
+    "published": true,
+    "status": "Disponível",
+    "price": 100,
+    "showcase": false,
+    "new": false,
+    "development": false
+  },
+  "b5": {
+    "published": true,
+    "status": "Disponível",
+    "price": 100,
+    "showcase": false,
+    "new": false,
+    "development": false
+  },
+  "b6": {
+    "published": true,
+    "status": "Disponível",
+    "price": 100,
+    "showcase": false,
+    "new": false,
+    "development": false
+  },
+  "b7": {
+    "published": true,
+    "status": "Disponível",
+    "price": 100,
+    "showcase": false,
+    "new": false,
+    "development": false
+  },
+  "b8": {
+    "published": true,
+    "status": "Disponível",
+    "price": 100,
+    "showcase": false,
+    "new": false,
+    "development": false
+  },
+  "b9": {
+    "published": true,
+    "status": "Disponível",
+    "price": 100,
+    "showcase": false,
+    "new": false,
+    "development": false
+  },
+  "b10": {
+    "published": true,
+    "status": "Disponível",
+    "price": 100,
+    "showcase": false,
+    "new": false,
+    "development": false
+  },
+  "c1": {
+    "published": true,
+    "status": "Disponível",
+    "price": 100,
+    "showcase": false,
+    "new": false,
+    "development": false
+  },
+  "c2": {
+    "published": true,
+    "status": "Disponível",
+    "price": 100,
+    "showcase": false,
+    "new": false,
+    "development": false
+  },
+  "c3": {
+    "published": true,
+    "status": "Disponível",
+    "price": 100,
+    "showcase": false,
+    "new": false,
+    "development": false
+  },
+  "c4": {
+    "published": true,
+    "status": "Disponível",
+    "price": 100,
+    "showcase": false,
+    "new": false,
+    "development": false
+  },
+  "c5": {
+    "published": true,
+    "status": "Disponível",
+    "price": 100,
+    "showcase": false,
+    "new": false,
+    "development": false
+  },
+  "c6": {
+    "published": true,
+    "status": "Disponível",
+    "price": 100,
+    "showcase": false,
+    "new": false,
+    "development": false
+  },
+  "c7": {
+    "published": true,
+    "status": "Disponível",
+    "price": 100,
+    "showcase": false,
+    "new": false,
+    "development": false
+  },
+  "c8": {
+    "published": true,
+    "status": "Disponível",
+    "price": 100,
+    "showcase": false,
+    "new": false,
+    "development": false
+  },
+  "c9": {
+    "published": true,
+    "status": "Disponível",
+    "price": 100,
+    "showcase": false,
+    "new": false,
+    "development": false
+  }
+}

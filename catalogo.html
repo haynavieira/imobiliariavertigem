@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#070707" />
+  <title>Catálogo — Dynasty 8</title>
+  <meta name="description" content="Catálogo residencial da Dynasty 8 em San Andreas — VERTIGEM." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="dynasty-site catalog-page">
+  <div class="noise"></div>
+
+  <header class="site-header dynasty-header">
+    <a class="brand dynasty-brand" href="index.html" aria-label="Dynasty 8">
+      <span class="brand-title">DYNASTY 8</span>
+      <span class="brand-sub">REAL ESTATE · SAN ANDREAS</span>
+    </a>
+
+    <nav class="nav catalog-nav">
+      <a href="catalogo.html?classe=a" data-catalog-nav="a">Exclusivas</a>
+      <a href="catalogo.html?classe=b" data-catalog-nav="b">Selecionadas</a>
+      <a href="catalogo.html?classe=c" data-catalog-nav="c">Essenciais</a>
+      <a href="sobre.html">Sobre</a>
+    </nav>
+
+    <div class="header-actions">
+      <span class="server-mark">VERTIGEM</span>
+      <button class="saved-trigger ghost-btn" id="favoritesBtn" type="button" aria-controls="favoritesDrawer" aria-expanded="false">♡ Salvos <span id="favoritesCount">0</span></button>
+    </div>
+  </header>
+
+  <nav class="catalog-mobile-nav" aria-label="Coleções">
+    <a href="catalogo.html?classe=a" data-catalog-nav-mobile="a">Exclusivas</a>
+    <a href="catalogo.html?classe=b" data-catalog-nav-mobile="b">Selecionadas</a>
+    <a href="catalogo.html?classe=c" data-catalog-nav-mobile="c">Essenciais</a>
+  </nav>
+
+  <main>
+    <section class="catalog-hero dynasty-catalog-hero">
+      <div>
+        <div class="catalog-breadcrumb" aria-label="Navegação">
+          <a href="index.html">Home</a><span>·</span><span id="catalogBreadcrumb">Residências</span>
+        </div>
+        <p class="eyebrow" id="catalogEyebrow">CATÁLOGO RESIDENCIAL</p>
+        <h1 id="catalogTitle">Coleção</h1>
+        <p id="catalogIntro">Residências selecionadas em San Andreas.</p>
+      </div>
+      <div class="catalog-hero-mark" aria-hidden="true"><img src="assets/vertigem-logo.png" alt=""></div>
+    </section>
+
+    <section class="catalog-section catalog-page-section" id="catalogo">
+      <div class="section-heading">
+        <div><p class="eyebrow">RESIDÊNCIAS</p><h2>Explore a seleção</h2></div>
+        <p id="resultCount">0 propriedades encontradas</p>
+      </div>
+
+      <div class="filters catalog-filters">
+        <label class="search-field"><span>Buscar</span><input id="searchInput" type="search" placeholder="Nome ou localização" autocomplete="off"></label>
+        <label><span>Localização</span><select id="locationFilter"><option value="">Todas</option></select></label>
+      </div>
+
+      <div class="catalog-toolbar">
+        <button class="filter-reset" id="resetFilters" type="button">Limpar filtros</button>
+        <label class="sort"><span>Ordenar por</span><select id="sortFilter"><option value="showcase">Destaques</option><option value="name">Nome</option><option value="location">Localização</option></select></label>
+      </div>
+
+      <div class="catalog-visual-key" aria-hidden="true"><span>DYNASTY 8</span><i></i><span>CATÁLOGO · SAN ANDREAS</span></div>
+      <div class="property-grid is-loading" id="propertyGrid">
+        <article class="property-card property-skeleton"></article>
+        <article class="property-card property-skeleton"></article>
+        <article class="property-card property-skeleton"></article>
+      </div>
+      <div class="empty-state" id="emptyState" hidden><span class="cross">†</span><h3>Nenhum imóvel encontrado.</h3><p>Ajuste os filtros para continuar explorando.</p></div>
+
+      <section class="recent-section" id="recentSection" hidden>
+        <div class="recent-heading"><div><p class="eyebrow">VISTOS RECENTEMENTE</p><h2>Voltar a um imóvel</h2></div><button id="clearRecents" class="filter-reset" type="button">Limpar</button></div>
+        <div class="recent-grid" id="recentGrid"></div>
+      </section>
+    </section>
+  </main>
+
+  <footer class="site-footer-rich dynasty-footer compact-footer">
+    <div><span class="brand-title small">DYNASTY 8</span><p>Real Estate · San Andreas</p></div>
+    <div class="footer-links"><a href="index.html">Home</a><a href="sobre.html">Sobre</a></div>
+    <div class="social-icon-row" aria-label="Redes do VERTIGEM">
+      <a class="social-icon-link" href="#" data-social-link="discord" target="_blank" rel="noopener noreferrer" aria-label="Discord" title="Discord"><img src="assets/icons/discord.png" alt="" width="64" height="64" onload="this.nextElementSibling.hidden=true" onerror="this.hidden=true"><span aria-hidden="true">◈</span></a>
+      <a class="social-icon-link" href="#" data-social-link="instagram" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram"><img src="assets/icons/instagram.png" alt="" width="64" height="64" onload="this.nextElementSibling.hidden=true" onerror="this.hidden=true"><span aria-hidden="true">◎</span></a>
+    </div>
+    <span class="footer-vertigem">VERTIGEM</span>
+  </footer>
+
+  <div class="modal" id="propertyModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <article class="modal-card dynasty-modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" type="button" data-close-modal aria-label="Fechar">×</button>
+      <div class="modal-gallery">
+        <div class="modal-main-image-wrap">
+          <img id="modalMainImage" class="modal-main-image" src="" alt="">
+          <span class="gallery-counter" id="galleryCounter">01 / 01</span>
+          <span class="gallery-register-mark" aria-hidden="true"></span>
+          <button class="gallery-nav gallery-prev" type="button" data-gallery-prev aria-label="Imagem anterior">←</button>
+          <button class="gallery-nav gallery-next" type="button" data-gallery-next aria-label="Próxima imagem">→</button>
+          <button class="gallery-expand" type="button" data-gallery-expand aria-label="Ampliar imagem">↗</button>
+        </div>
+        <div class="modal-thumbs" id="modalThumbs"></div>
+      </div>
+
+      <div class="modal-content">
+        <div class="modal-breadcrumb" aria-label="Localização no catálogo"><span id="modalCollectionLabel">Residências</span><span>·</span><strong id="modalBreadcrumbName">Imóvel</strong></div>
+        <div class="modal-heading-row"><div class="modal-status" id="modalStatus">Disponível</div><button class="favorite-text-button icon-favorite" id="modalFavorite" type="button" aria-label="Salvar imóvel">♡</button></div>
+        <p class="eyebrow" id="modalLocation">VINEWOOD HILLS</p>
+        <h2 id="modalTitle">Marble House</h2>
+        <p class="modal-location-detail" id="modalLocationDetail"></p>
+        <p class="modal-description" id="modalDescription"></p>
+
+        <div class="modal-price-box"><span>VALOR DE REFERÊNCIA</span><strong id="modalPrice">R$ 100,00</strong></div>
+        <div class="interest-note">
+          <span>INTERESSE &amp; EXPERIÊNCIA EM RP</span>
+          <p>Este catálogo apresenta um ambiente virtual do servidor. O valor exibido é uma referência para o atendimento e não representa aquisição de imóvel real. Fotos ajudam na escolha; acessos, interiores e contexto do local são conhecidos em RP.</p>
+        </div>
+
+        <div class="modal-actions purchase-actions">
+          <button class="primary-btn" id="copyReference" type="button">Copiar para atendimento</button>
+          <a class="ghost-btn staff-btn" id="staffTicketButton" href="#" target="_blank" rel="noopener noreferrer">Atendimento ↗</a>
+          <button class="ghost-btn share-btn" id="shareProperty" type="button">Compartilhar ↗</button>
+        </div>
+        <p class="ticket-config-warning" id="ticketConfigWarning" hidden>O link do atendimento ainda não foi configurado em <strong>config.js</strong>.</p>
+      </div>
+    </article>
+  </div>
+
+  <aside class="favorites-drawer" id="favoritesDrawer" aria-hidden="true">
+    <div class="favorites-drawer-backdrop" data-close-favorites></div>
+    <section class="favorites-panel" role="dialog" aria-modal="true" aria-labelledby="favoritesTitle">
+      <div class="favorites-panel-head"><div><p class="eyebrow">SELEÇÃO PESSOAL</p><h2 id="favoritesTitle">Imóveis salvos</h2></div><button class="drawer-close" type="button" data-close-favorites aria-label="Fechar">×</button></div>
+      <div class="favorites-list" id="favoritesList"></div>
+      <div class="favorites-empty" id="favoritesEmpty"><p>Você ainda não salvou nenhum imóvel.</p></div>
+      <div class="favorites-actions"><button class="primary-btn" id="copyFavorites" type="button">Copiar seleção</button><button class="filter-reset" id="clearFavorites" type="button">Limpar salvos</button></div>
+    </section>
+  </aside>
+
+  <div class="image-lightbox" id="imageLightbox" aria-hidden="true">
+    <div class="image-lightbox-backdrop" data-close-lightbox></div>
+    <button class="image-lightbox-close" type="button" data-close-lightbox aria-label="Fechar imagem ampliada">×</button>
+    <button class="image-lightbox-nav image-lightbox-prev" type="button" data-gallery-prev aria-label="Imagem anterior">←</button>
+    <img id="lightboxImage" src="" alt="">
+    <button class="image-lightbox-nav image-lightbox-next" type="button" data-gallery-next aria-label="Próxima imagem">→</button>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="config.js"></script>
+  <script src="catalogo.js"></script>
+</body>
+</html>
