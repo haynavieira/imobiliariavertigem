@@ -17,9 +17,9 @@
   },
   "a3": {
     "published": true,
-    "status": "Disponível",
+    "status": "Indisponível",
     "price": 375,
-    "showcase": true,
+    "showcase": false,
     "new": false,
     "development": false
   },
@@ -137,7 +137,7 @@
   },
   "b6": {
     "published": true,
-    "status": "Disponível",
+    "status": "Indisponível",
     "price": 250,
     "showcase": false,
     "new": false,
@@ -241,7 +241,7 @@
   },
   "c9": {
     "published": true,
-    "status": "Disponível",
+    "status": "Indisponível",
     "price": 100,
     "showcase": false,
     "new": false,
