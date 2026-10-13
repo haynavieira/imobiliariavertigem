@@ -49,9 +49,9 @@
   },
   "a7": {
     "published": true,
-    "status": "Disponível",
+    "status": "Indisponível",
     "price": 350,
-    "showcase": true,
+    "showcase": false,
     "new": false,
     "development": false
   },
